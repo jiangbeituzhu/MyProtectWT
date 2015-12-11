@@ -1,9 +1,9 @@
 //
 //  Header.h
-//  FashionLife
+//  Test
 //
-//  Created by yzz on 15/10/26.
-//  Copyright (c) 2015年 project. All rights reserved.
+//  Created by qianfeng on 15/11/23.
+//  Copyright (c) 2015年 wt. All rights reserved.
 //
 
 #ifndef FashionLife_Header_h
