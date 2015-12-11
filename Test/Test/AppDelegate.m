@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "RootTabBarController.h"
+#import "Header.h"
+#import "Function.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +17,25 @@
 
 @implementation AppDelegate
 
+//创建根视图和启动页
+- (void)createRootController{
+    
+    RootTabBarController *rtbc = [[RootTabBarController alloc]init];
+    if ([Function getValueForKey:FIRST_START] != nil) {
+        //第一次启动App
+        
+    }else{
+        //非第一次启动App
+        self.window.rootViewController = rtbc;
+        
+    }
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self createRootController];
     return YES;
 }
 

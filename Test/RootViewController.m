@@ -15,6 +15,16 @@
 
 @implementation RootViewController
 
+- (instancetype)initWithTitle:(NSString *)title tabTitle:(NSString *)tabTitle tabImage:(UIImage *)image{
+    if (self = [super init]) {
+        //设置NavigationItem的title
+        self.title = title;
+        self.tabBarItem = [[UITabBarItem alloc]initWithTitle:tabTitle image:image selectedImage:nil];
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -22,7 +32,7 @@
     CGFloat green = 67;
     CGFloat blue = 73;
     
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
+    self.navigationController.navigationBar. barTintColor = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
@@ -161,7 +171,6 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
-
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
