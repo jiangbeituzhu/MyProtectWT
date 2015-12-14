@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SELECT" id="KGk-i7-Jjw" customClass="SelectCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6g-6Y-ozc">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="昵称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rk5-1k-BSe">
+                        <rect key="frame" x="66" y="15" width="140" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5分钟前" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rb-TV-c9a">
+                        <rect key="frame" x="66" y="37" width="140" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="attach_16.png" translatesAutoresizingMaskIntoConstraints="NO" id="KNa-Eo-ezW">
+                        <rect key="frame" x="250" y="5" width="40" height="40"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSm-lb-ZXH">
+                        <rect key="frame" x="300" y="15" width="40" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="关 注">
+                            <color key="titleColor" red="1" green="0.43333979420000002" blue="0.32011487550000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="1" green="0.74325673370000001" blue="0.85691247390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdJ-T6-5WT">
+                        <rect key="frame" x="8" y="66" width="360" height="280"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uai-Hh-qf8">
+                        <rect key="frame" x="8" y="346" width="360" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="详情叙述" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOC-cr-6Gl">
+                                <rect key="frame" x="8" y="0.0" width="340" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6N-4W-liR">
+                        <rect key="frame" x="8" y="414" width="350" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杂货 每日一晒我做主 厨具" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8j-ro-cBd">
+                                <rect key="frame" x="40" y="4" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.43333979420000002" blue="0.32011487550000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_tag_name@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="LbN-jz-cuU">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTZ-Yk-iYq">
+                        <rect key="frame" x="10" y="452" width="350" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EI-5X-ZpO">
+                                <rect key="frame" x="20" y="0.0" width="40" height="40"/>
+                                <state key="normal" title="分享" backgroundImage="bg_no_1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1ml-JU-7j3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSu-Yg-cba">
+                                <rect key="frame" x="270" y="0.0" width="40" height="40"/>
+                                <state key="normal" title="收藏" backgroundImage="bg_no_5.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="collectButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hAt-RT-76o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsg-H4-Ydc">
+                                <rect key="frame" x="150" y="0.0" width="40" height="40"/>
+                                <state key="normal" title="评论" backgroundImage="bg_no_2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="commendButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fxE-sb-5yS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backImageView" destination="pdJ-T6-5WT" id="PVi-gw-GJR"/>
+                <outlet property="collectionButton" destination="dSu-Yg-cba" id="dBx-Oi-Ukv"/>
+                <outlet property="commentButton" destination="zsg-H4-Ydc" id="hcv-u3-oQo"/>
+                <outlet property="descLable" destination="QOC-cr-6Gl" id="VKD-Nc-6mx"/>
+                <outlet property="iconImageView" destination="J6g-6Y-ozc" id="enX-i1-aO7"/>
+                <outlet property="shareButton" destination="3EI-5X-ZpO" id="gOQ-1i-6f7"/>
+                <outlet property="timeLable" destination="2Rb-TV-c9a" id="0H4-Fa-1kp"/>
+                <outlet property="titleLable" destination="Rk5-1k-BSe" id="hDa-NS-YjB"/>
+                <outlet property="typeImageView" destination="LbN-jz-cuU" id="BWl-ms-hRX"/>
+                <outlet property="typeLable" destination="u8j-ro-cBd" id="74m-re-6Vn"/>
+            </connections>
+            <point key="canvasLocation" x="642" y="300"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="attach_16.png" width="600" height="600"/>
+        <image name="bg_no_1.png" width="35" height="35"/>
+        <image name="bg_no_2.png" width="35" height="35"/>
+        <image name="bg_no_5.png" width="35" height="35"/>
+        <image name="icon_tag_name@2x.png" width="600" height="600"/>
+    </resources>
+</document>

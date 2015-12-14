@@ -29,7 +29,6 @@
     NSMutableArray *_tempArrayScorll;
     NSMutableArray *_tempArrayGood;
     NSTimer        *_timer;
-    
 
 }
 
