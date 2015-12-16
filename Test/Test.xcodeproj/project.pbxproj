@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC19B3791C215BA10087068E /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19B3781C215BA10087068E /* MineViewController.m */; };
 		BC1A65161C1EC2C200C4A760 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A65151C1EC2C200C4A760 /* FindViewController.m */; };
 		BC1A65191C1EC33D00C4A760 /* FindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A65181C1EC33D00C4A760 /* FindModel.m */; };
 		BC1A651D1C1EC3C800C4A760 /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A651B1C1EC3C800C4A760 /* SelectCell.m */; };
@@ -213,6 +214,19 @@
 		BCC258A71C1ACD9400D9F067 /* GoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC258A01C1ACD9300D9F067 /* GoodDetailViewController.m */; };
 		BCC258A81C1ACD9400D9F067 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC258A21C1ACD9300D9F067 /* HomeViewController.m */; };
 		BCC258A91C1ACD9400D9F067 /* TopicScrollListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC258A41C1ACD9300D9F067 /* TopicScrollListViewController.m */; };
+		BCFF1B431C215C7A0080D9EC /* MyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B411C215C7A0080D9EC /* MyHeaderView.m */; };
+		BCFF1B441C215C7A0080D9EC /* MyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF1B421C215C7A0080D9EC /* MyHeaderView.xib */; };
+		BCFF1B551C215D2E0080D9EC /* CateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B461C215D2E0080D9EC /* CateListViewController.m */; };
+		BCFF1B561C215D2E0080D9EC /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B481C215D2E0080D9EC /* PhotosViewController.m */; };
+		BCFF1B571C215D2E0080D9EC /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B4A1C215D2E0080D9EC /* PictureCollectionViewCell.m */; };
+		BCFF1B581C215D2E0080D9EC /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B4C1C215D2E0080D9EC /* ProductCollectionViewCell.m */; };
+		BCFF1B591C215D2E0080D9EC /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF1B4D1C215D2E0080D9EC /* ProductCollectionViewCell.xib */; };
+		BCFF1B5A1C215D2E0080D9EC /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B4F1C215D2E0080D9EC /* ProductDetailViewController.m */; };
+		BCFF1B5B1C215D2E0080D9EC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B511C215D2E0080D9EC /* SearchViewController.m */; };
+		BCFF1B5C1C215D2E0080D9EC /* SubjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B531C215D2E0080D9EC /* SubjectCell.m */; };
+		BCFF1B5D1C215D2E0080D9EC /* SubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF1B541C215D2E0080D9EC /* SubjectCell.xib */; };
+		BCFF1B611C215DE70080D9EC /* CateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B601C215DE70080D9EC /* CateModel.m */; };
+		BCFF1B641C215E060080D9EC /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1B631C215E060080D9EC /* ProductModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -226,6 +240,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC19B3771C215BA10087068E /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		BC19B3781C215BA10087068E /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		BC1A65141C1EC2C200C4A760 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
 		BC1A65151C1EC2C200C4A760 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		BC1A65171C1EC33D00C4A760 /* FindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindModel.h; sourceTree = "<group>"; };
@@ -541,6 +557,29 @@
 		BCC258A21C1ACD9300D9F067 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BCC258A31C1ACD9300D9F067 /* TopicScrollListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicScrollListViewController.h; sourceTree = "<group>"; };
 		BCC258A41C1ACD9300D9F067 /* TopicScrollListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicScrollListViewController.m; sourceTree = "<group>"; };
+		BCFF1B401C215C7A0080D9EC /* MyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderView.h; sourceTree = "<group>"; };
+		BCFF1B411C215C7A0080D9EC /* MyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderView.m; sourceTree = "<group>"; };
+		BCFF1B421C215C7A0080D9EC /* MyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHeaderView.xib; sourceTree = "<group>"; };
+		BCFF1B451C215D2E0080D9EC /* CateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateListViewController.h; sourceTree = "<group>"; };
+		BCFF1B461C215D2E0080D9EC /* CateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateListViewController.m; sourceTree = "<group>"; };
+		BCFF1B471C215D2E0080D9EC /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		BCFF1B481C215D2E0080D9EC /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		BCFF1B491C215D2E0080D9EC /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		BCFF1B4A1C215D2E0080D9EC /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
+		BCFF1B4B1C215D2E0080D9EC /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		BCFF1B4C1C215D2E0080D9EC /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		BCFF1B4D1C215D2E0080D9EC /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		BCFF1B4E1C215D2E0080D9EC /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		BCFF1B4F1C215D2E0080D9EC /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		BCFF1B501C215D2E0080D9EC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		BCFF1B511C215D2E0080D9EC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		BCFF1B521C215D2E0080D9EC /* SubjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectCell.h; sourceTree = "<group>"; };
+		BCFF1B531C215D2E0080D9EC /* SubjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectCell.m; sourceTree = "<group>"; };
+		BCFF1B541C215D2E0080D9EC /* SubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubjectCell.xib; sourceTree = "<group>"; };
+		BCFF1B5F1C215DE70080D9EC /* CateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateModel.h; sourceTree = "<group>"; };
+		BCFF1B601C215DE70080D9EC /* CateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateModel.m; sourceTree = "<group>"; };
+		BCFF1B621C215E060080D9EC /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		BCFF1B631C215E060080D9EC /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,6 +607,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC19B3761C215B690087068E /* MY */ = {
+			isa = PBXGroup;
+			children = (
+				BC19B3771C215BA10087068E /* MineViewController.h */,
+				BC19B3781C215BA10087068E /* MineViewController.m */,
+				BCFF1B401C215C7A0080D9EC /* MyHeaderView.h */,
+				BCFF1B411C215C7A0080D9EC /* MyHeaderView.m */,
+				BCFF1B421C215C7A0080D9EC /* MyHeaderView.xib */,
+			);
+			name = MY;
+			sourceTree = "<group>";
+		};
 		BC1A65101C1EC22600C4A760 /* find */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +632,8 @@
 			isa = PBXGroup;
 			children = (
 				BCA3A1741C1A73FC00C992A0 /* libsqlite3.dylib */,
+				BCFF1B5E1C215D3B0080D9EC /* photos */,
+				BC19B3761C215B690087068E /* MY */,
 				BCA39FE41C1A73C800C992A0 /* other */,
 				BCA3A03F1C1A73E200C992A0 /* ThirdLib */,
 				BCC257F21C1ACD0300D9F067 /* image */,
@@ -1066,6 +1119,10 @@
 				BCA3A1851C1A7ADA00C992A0 /* Model.m */,
 				BC1A65171C1EC33D00C4A760 /* FindModel.h */,
 				BC1A65181C1EC33D00C4A760 /* FindModel.m */,
+				BCFF1B5F1C215DE70080D9EC /* CateModel.h */,
+				BCFF1B601C215DE70080D9EC /* CateModel.m */,
+				BCFF1B621C215E060080D9EC /* ProductModel.h */,
+				BCFF1B631C215E060080D9EC /* ProductModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1192,6 +1249,29 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		BCFF1B5E1C215D3B0080D9EC /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF1B451C215D2E0080D9EC /* CateListViewController.h */,
+				BCFF1B461C215D2E0080D9EC /* CateListViewController.m */,
+				BCFF1B471C215D2E0080D9EC /* PhotosViewController.h */,
+				BCFF1B481C215D2E0080D9EC /* PhotosViewController.m */,
+				BCFF1B491C215D2E0080D9EC /* PictureCollectionViewCell.h */,
+				BCFF1B4A1C215D2E0080D9EC /* PictureCollectionViewCell.m */,
+				BCFF1B4B1C215D2E0080D9EC /* ProductCollectionViewCell.h */,
+				BCFF1B4C1C215D2E0080D9EC /* ProductCollectionViewCell.m */,
+				BCFF1B4D1C215D2E0080D9EC /* ProductCollectionViewCell.xib */,
+				BCFF1B4E1C215D2E0080D9EC /* ProductDetailViewController.h */,
+				BCFF1B4F1C215D2E0080D9EC /* ProductDetailViewController.m */,
+				BCFF1B501C215D2E0080D9EC /* SearchViewController.h */,
+				BCFF1B511C215D2E0080D9EC /* SearchViewController.m */,
+				BCFF1B521C215D2E0080D9EC /* SubjectCell.h */,
+				BCFF1B531C215D2E0080D9EC /* SubjectCell.m */,
+				BCFF1B541C215D2E0080D9EC /* SubjectCell.xib */,
+			);
+			name = photos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1299,6 +1379,7 @@
 				BCA3A16F1C1A73E300C992A0 /* ios-social-sdk-shake.html in Resources */,
 				BCC258671C1ACD0300D9F067 /* icon_tag_price@2x.png in Resources */,
 				BCC2588E1C1ACD0300D9F067 /* nav-32.png in Resources */,
+				BCFF1B591C215D2E0080D9EC /* ProductCollectionViewCell.xib in Resources */,
 				BCC258771C1ACD0300D9F067 /* tabbar_home@2x.png in Resources */,
 				BCA3A15A1C1A73E300C992A0 /* UMSCommentInputController.xib in Resources */,
 				BCC2585E1C1ACD0300D9F067 /* cate_search@2x.png in Resources */,
@@ -1378,6 +1459,7 @@
 				BCC258571C1ACD0300D9F067 /* attach_5.png in Resources */,
 				BCC2585F1C1ACD0300D9F067 /* class.json in Resources */,
 				BCC258801C1ACD0300D9F067 /* button_more@2x.png in Resources */,
+				BCFF1B5D1C215D2E0080D9EC /* SubjectCell.xib in Resources */,
 				BCC258851C1ACD0300D9F067 /* cate_search.png in Resources */,
 				BCC258861C1ACD0300D9F067 /* cate_search@2x.png in Resources */,
 				BCC2586A1C1ACD0300D9F067 /* Session_Multi_Forward@2x.png in Resources */,
@@ -1385,6 +1467,7 @@
 				BCA3A16D1C1A73E300C992A0 /* ios-social-sdk-login-detail.html in Resources */,
 				BCC258681C1ACD0300D9F067 /* icon_tag_price@3x.png in Resources */,
 				BCC258601C1ACD0300D9F067 /* contactflag_star_mark@2x.png in Resources */,
+				BCFF1B441C215C7A0080D9EC /* MyHeaderView.xib in Resources */,
 				BCC258501C1ACD0300D9F067 /* attach_16.png in Resources */,
 				BCC258701C1ACD0300D9F067 /* shadow_image_edit_navi@3x.png in Resources */,
 			);
@@ -1416,6 +1499,8 @@
 				BCA3A1861C1A7ADA00C992A0 /* Model.m in Sources */,
 				BCA3A13E1C1A73E300C992A0 /* MMLinearProgressView.m in Sources */,
 				BCC258A91C1ACD9400D9F067 /* TopicScrollListViewController.m in Sources */,
+				BCFF1B641C215E060080D9EC /* ProductModel.m in Sources */,
+				BC19B3791C215BA10087068E /* MineViewController.m in Sources */,
 				BCA3A12C1C1A73E300C992A0 /* MJRefreshBackNormalFooter.m in Sources */,
 				BC1A65191C1EC33D00C4A760 /* FindModel.m in Sources */,
 				BCA3A1201C1A73E300C992A0 /* UIProgressView+AFNetworking.m in Sources */,
@@ -1425,7 +1510,11 @@
 				BCA3A18C1C1AC66F00C992A0 /* RootNavigationController.m in Sources */,
 				BCA3A1511C1A73E300C992A0 /* UIImage+GIF.m in Sources */,
 				BCA3A1181C1A73E300C992A0 /* AFURLRequestSerialization.m in Sources */,
+				BCFF1B5C1C215D2E0080D9EC /* SubjectCell.m in Sources */,
+				BCFF1B5B1C215D2E0080D9EC /* SearchViewController.m in Sources */,
 				BCA3A12B1C1A73E300C992A0 /* MJRefreshBackGifFooter.m in Sources */,
+				BCFF1B431C215C7A0080D9EC /* MyHeaderView.m in Sources */,
+				BCFF1B551C215D2E0080D9EC /* CateListViewController.m in Sources */,
 				BC1A65161C1EC2C200C4A760 /* FindViewController.m in Sources */,
 				BC1A651D1C1EC3C800C4A760 /* SelectCell.m in Sources */,
 				BCA3A14F1C1A73E300C992A0 /* SDWebImagePrefetcher.m in Sources */,
@@ -1433,6 +1522,7 @@
 				BCA3A1391C1A73E300C992A0 /* UIScrollView+MJRefresh.m in Sources */,
 				BCC258A81C1ACD9400D9F067 /* HomeViewController.m in Sources */,
 				BCA3A1381C1A73E300C992A0 /* UIScrollView+MJExtension.m in Sources */,
+				BCFF1B5A1C215D2E0080D9EC /* ProductDetailViewController.m in Sources */,
 				BC86DF2D1C02FEDD00ED897D /* ViewController.m in Sources */,
 				BCA3A1301C1A73E300C992A0 /* MJRefreshStateHeader.m in Sources */,
 				BCA3A1211C1A73E300C992A0 /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -1445,7 +1535,9 @@
 				BCA3A1251C1A73E300C992A0 /* MJRefreshComponent.m in Sources */,
 				BCA3A1891C1AC60700C992A0 /* RootTabBarController.m in Sources */,
 				BCC258A51C1ACD9400D9F067 /* DetailViewController.m in Sources */,
+				BCFF1B571C215D2E0080D9EC /* PictureCollectionViewCell.m in Sources */,
 				BCA3A14C1C1A73E300C992A0 /* SDWebImageDownloader.m in Sources */,
+				BCFF1B581C215D2E0080D9EC /* ProductCollectionViewCell.m in Sources */,
 				BCA3A1441C1A73E300C992A0 /* MMProgressHUDWindow.m in Sources */,
 				BCA3A1271C1A73E300C992A0 /* MJRefreshHeader.m in Sources */,
 				BCA3A1531C1A73E300C992A0 /* UIImage+WebP.m in Sources */,
@@ -1486,7 +1578,9 @@
 				BCA3A1431C1A73E300C992A0 /* MMProgressHUDViewController.m in Sources */,
 				BCA3A14D1C1A73E300C992A0 /* SDWebImageDownloaderOperation.m in Sources */,
 				BCA3A1481C1A73E300C992A0 /* NSData+ImageContentType.m in Sources */,
+				BCFF1B561C215D2E0080D9EC /* PhotosViewController.m in Sources */,
 				BCA3A1541C1A73E300C992A0 /* UIImageView+HighlightedWebCache.m in Sources */,
+				BCFF1B611C215DE70080D9EC /* CateModel.m in Sources */,
 				BCA3A11B1C1A73E300C992A0 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

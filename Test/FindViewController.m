@@ -10,8 +10,8 @@
 #import "Header.h"
 #import "SelectCell.h"
 #import "FindModel.h"
-//#import "MineViewController.h"
-//#import "PhotosViewController.h"
+#import "MineViewController.h"
+#import "PhotosViewController.h"
 
 static NSString *selectId = @"SELECT";
 
@@ -36,16 +36,16 @@ static NSString *selectId = @"SELECT";
 
 #pragma mark 按钮点击事件
 - (void)leftBarButtonClick:(UIBarButtonItem *)left{
-//    PhotosViewController *search = [[PhotosViewController alloc]init];
-//    self.tabBarController.selectedIndex = 2;
-//    [self.navigationController pushViewController:search animated:YES];
+    PhotosViewController *search = [[PhotosViewController alloc]init];
+    self.tabBarController.selectedIndex = 2;
+    [self.navigationController pushViewController:search animated:YES];
     
 }
 - (void)rightBarButtonClick:(UIBarButtonItem *)right{
     
-//    MineViewController *mine = [[MineViewController alloc]init];
-//    self.tabBarController.selectedIndex = 3;
-//    [self.navigationController pushViewController:mine animated:YES];
+    MineViewController *mine = [[MineViewController alloc]init];
+    self.tabBarController.selectedIndex = 3;
+    [self.navigationController pushViewController:mine animated:YES];
 }
 
 
